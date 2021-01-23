@@ -1,10 +1,8 @@
-class Food {
-    constructor(){
+class Food {constructor(){
     this.foodStock=0;
     this.lastFed;
     this.image=loadImage('virtual pet images/milk.png');
     }
-  
    updateFoodStock(foodStock){
     this.foodStock=foodStock;
    }

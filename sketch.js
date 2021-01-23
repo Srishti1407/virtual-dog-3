@@ -37,7 +37,7 @@ function setup() {
   dog.addImage(sadDog);
   dog.scale=0.15;
   
-  feed=createButton("FEED DRAGO");
+  feed=createButton("FEED DOG");
   feed.position(500,15);
   feed.mousePressed(feedDog);
 
